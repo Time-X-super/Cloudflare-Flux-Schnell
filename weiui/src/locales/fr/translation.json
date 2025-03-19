@@ -1,0 +1,67 @@
+{
+  "common": {
+    "appName": "Cloudflare-Flux Schnell WebUI",
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "continue": "Continuer",
+    "reset": "Réinitialiser",
+    "generate": "Générer",
+    "download": "Télécharger",
+    "clear": "Effacer",
+    "reuse": "Réutiliser",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "resetConfig": "Réinitialiser la configuration"
+  },
+  "header": {
+    "title": "Cloudflare-Flux Schnell WebUI",
+    "subtitle": "Application IA de génération d'images à partir de texte"
+  },
+  "footer": {
+    "copyright": "Cloudflare-Flux Schnell WebUI © {{year}}",
+    "poweredBy": "Propulsé par Cloudflare Workers AI"
+  },
+  "apiConfig": {
+    "title": "Veuillez définir l'URL du Worker",
+    "description": "Veuillez entrer l'URL de votre Cloudflare Worker pour continuer à utiliser l'application.",
+    "urlLabel": "URL du Cloudflare Worker",
+    "urlPlaceholder": "Ex.: https://cf-flux-schnell.your-subdomain.workers.dev",
+    "saveButton": "Enregistrer et continuer",
+    "saveSuccess": "L'URL du Worker a été enregistrée avec succès !",
+    "emptyUrlError": "Veuillez entrer une URL de Worker pour continuer",
+    "guideTitle": "Si vous n'avez pas encore d'URL de Worker, suivez ces étapes :",
+    "guideSteps": {
+      "step1": "Exécutez le script <code>start-flux-schnell.bat</code> dans le répertoire racine du projet",
+      "step2": "Dans le menu principal, sélectionnez \"2. Déployer le Worker et obtenir l'URL, puis démarrer WebUI\"",
+      "step3": "Suivez les instructions du script pour terminer le déploiement",
+      "step4": "Copiez l'URL obtenue ici"
+    }
+  },
+  "imageGenerator": {
+    "title": "Générer une image",
+    "resultTitle": "Résultat de la génération",
+    "promptLabel": "Description (Prompt)",
+    "promptPlaceholder": "Ex.: 1 girl, cute, drinking water, glass cup, morning light, cartoon style, simple background. Veuillez utiliser l'anglais pour de meilleurs résultats, car Flux peut ne pas reconnaître correctement les autres langues.",
+    "stepsLabel": "Étapes (1-8)",
+    "stepsHint": "Plus d'étapes donnent une meilleure qualité d'image, mais nécessitent un temps de traitement plus long.",
+    "generateButton": "Générer l'image",
+    "generatingButton": "Génération en cours...",
+    "emptyPromptError": "Veuillez entrer une description",
+    "generateError": "Échec de la génération d'image : {{message}}",
+    "invalidImageError": "Les données de l'image générée sont invalides",
+    "noImagePlaceholder": "Les images générées s'afficheront ici",
+    "tips": {
+      "title": "Conseils :",
+      "tip1": "Des descriptions détaillées donneront de meilleurs résultats",
+      "tip2": "Essayez différents nombres d'étapes pour équilibrer la vitesse de génération et la qualité de l'image",
+      "tip3": "Cliquez sur les images dans l'historique pour réutiliser leur description",
+      "tip4": "Les images générées peuvent être téléchargées et enregistrées localement"
+    }
+  },
+  "history": {
+    "title": "Historique de génération",
+    "emptyHistory": "Pas encore d'historique de génération"
+  }
+} 

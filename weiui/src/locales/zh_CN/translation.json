@@ -1,0 +1,67 @@
+{
+  "common": {
+    "appName": "Cloudflare-Flux Schnell WebUI",
+    "loading": "正在加载...",
+    "save": "保存",
+    "cancel": "取消",
+    "continue": "继续",
+    "reset": "重置",
+    "generate": "生成",
+    "download": "下载",
+    "clear": "清除",
+    "reuse": "重用",
+    "error": "错误",
+    "success": "成功",
+    "warning": "警告",
+    "resetConfig": "重置配置"
+  },
+  "header": {
+    "title": "Cloudflare-Flux Schnell WebUI",
+    "subtitle": "文生图AI应用"
+  },
+  "footer": {
+    "copyright": "Cloudflare-Flux Schnell WebUI © {{year}}",
+    "poweredBy": "基于 Cloudflare Workers AI 构建"
+  },
+  "apiConfig": {
+    "title": "请设置Worker URL",
+    "description": "请输入您的Cloudflare Worker URL才能继续使用应用。",
+    "urlLabel": "Cloudflare Worker URL",
+    "urlPlaceholder": "例如：https://cf-flux-schnell.your-subdomain.workers.dev",
+    "saveButton": "保存并继续",
+    "saveSuccess": "Worker URL已保存成功！",
+    "emptyUrlError": "请输入Worker URL才能继续",
+    "guideTitle": "如果您还没有Worker URL，请参考以下步骤：",
+    "guideSteps": {
+      "step1": "运行项目根目录下的 <code>start-flux-schnell.bat</code> 脚本",
+      "step2": "在主菜单中选择 \"2. 部署Worker并获取URL，然后启动WeiUI\"",
+      "step3": "按照脚本指示完成部署",
+      "step4": "复制获得的URL到此处"
+    }
+  },
+  "imageGenerator": {
+    "title": "生成图像",
+    "resultTitle": "生成结果",
+    "promptLabel": "提示词 (Prompt)",
+    "promptPlaceholder": "例如：1女孩，可爱，喝水，玻璃杯，晨光，卡通风格，简单背景。请使用英文发送提示词，否则Flux无法准确识别。",
+    "stepsLabel": "步数 (1-8)",
+    "stepsHint": "步数越高，生成的图像质量越好，但需要更长的处理时间。",
+    "generateButton": "生成图像",
+    "generatingButton": "生成中...",
+    "emptyPromptError": "请输入提示词",
+    "generateError": "生成图像失败: {{message}}",
+    "invalidImageError": "生成的图像数据无效",
+    "noImagePlaceholder": "生成的图像将在这里显示",
+    "tips": {
+      "title": "操作提示：",
+      "tip1": "输入详细的提示词可以得到更好的结果",
+      "tip2": "尝试不同的步数来平衡生成速度和图像质量",
+      "tip3": "点击历史记录中的图像可以重用该提示词",
+      "tip4": "生成的图像可以下载保存到本地"
+    }
+  },
+  "history": {
+    "title": "生成历史",
+    "emptyHistory": "暂无生成历史"
+  }
+} 

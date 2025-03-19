@@ -1,0 +1,67 @@
+{
+  "common": {
+    "appName": "Cloudflare-Flux Schnell WebUI",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "reset": "Reset",
+    "generate": "Generate",
+    "download": "Download",
+    "clear": "Clear",
+    "reuse": "Reuse",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "resetConfig": "Reset Configuration"
+  },
+  "header": {
+    "title": "Cloudflare-Flux Schnell WebUI",
+    "subtitle": "Text-to-Image AI Application"
+  },
+  "footer": {
+    "copyright": "Cloudflare-Flux Schnell WebUI © {{year}}",
+    "poweredBy": "Built with Cloudflare Workers AI"
+  },
+  "apiConfig": {
+    "title": "Please Set Worker URL",
+    "description": "Please enter your Cloudflare Worker URL to continue using the application.",
+    "urlLabel": "Cloudflare Worker URL",
+    "urlPlaceholder": "e.g.: https://cf-flux-schnell.your-subdomain.workers.dev",
+    "saveButton": "Save and Continue",
+    "saveSuccess": "Worker URL has been saved successfully!",
+    "emptyUrlError": "Please enter a Worker URL to continue",
+    "guideTitle": "If you don't have a Worker URL yet, follow these steps:",
+    "guideSteps": {
+      "step1": "Run the script <code>start-flux-schnell.bat</code> in the project root directory",
+      "step2": "In the main menu, select \"2. Deploy Worker and get URL, then start WeiUI\"",
+      "step3": "Follow the script instructions to complete the deployment",
+      "step4": "Copy the obtained URL here"
+    }
+  },
+  "imageGenerator": {
+    "title": "Generate Image",
+    "resultTitle": "Generation Result",
+    "promptLabel": "Prompt",
+    "promptPlaceholder": "e.g.: 1 girl, cute, drinking water, glass cup, morning light, cartoon style, simple background. Please use English for best results, as Flux may not accurately recognize other languages.",
+    "stepsLabel": "Steps (1-8)",
+    "stepsHint": "Higher steps result in better image quality, but require longer processing time.",
+    "generateButton": "Generate Image",
+    "generatingButton": "Generating...",
+    "emptyPromptError": "Please enter a prompt",
+    "generateError": "Image generation failed: {{message}}",
+    "invalidImageError": "Generated image data is invalid",
+    "noImagePlaceholder": "Generated images will be displayed here",
+    "tips": {
+      "title": "Tips:",
+      "tip1": "Detailed prompts will yield better results",
+      "tip2": "Try different step counts to balance generation speed and image quality",
+      "tip3": "Click on images in the history to reuse that prompt",
+      "tip4": "Generated images can be downloaded and saved locally"
+    }
+  },
+  "history": {
+    "title": "Generation History",
+    "emptyHistory": "No generation history yet"
+  }
+} 

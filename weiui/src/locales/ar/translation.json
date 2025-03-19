@@ -1,0 +1,67 @@
+{
+  "common": {
+    "appName": "Cloudflare-Flux Schnell WebUI",
+    "loading": "جاري التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "continue": "متابعة",
+    "reset": "إعادة ضبط",
+    "generate": "إنشاء",
+    "download": "تنزيل",
+    "clear": "مسح",
+    "reuse": "إعادة استخدام",
+    "error": "خطأ",
+    "success": "نجاح",
+    "warning": "تحذير",
+    "resetConfig": "إعادة ضبط الإعدادات"
+  },
+  "header": {
+    "title": "Cloudflare-Flux Schnell WebUI",
+    "subtitle": "تطبيق الذكاء الاصطناعي لتوليد الصور من النص"
+  },
+  "footer": {
+    "copyright": "Cloudflare-Flux Schnell WebUI © {{year}}",
+    "poweredBy": "مدعوم بواسطة Cloudflare Workers AI"
+  },
+  "apiConfig": {
+    "title": "الرجاء تعيين عنوان URL للـ Worker",
+    "description": "الرجاء إدخال عنوان URL الخاص بـ Cloudflare Worker للاستمرار في استخدام التطبيق.",
+    "urlLabel": "عنوان URL لـ Cloudflare Worker",
+    "urlPlaceholder": "مثال: https://cf-flux-schnell.your-subdomain.workers.dev",
+    "saveButton": "حفظ ومتابعة",
+    "saveSuccess": "تم حفظ عنوان URL للـ Worker بنجاح!",
+    "emptyUrlError": "الرجاء إدخال عنوان URL للـ Worker للمتابعة",
+    "guideTitle": "إذا لم يكن لديك عنوان URL للـ Worker، اتبع هذه الخطوات:",
+    "guideSteps": {
+      "step1": "قم بتشغيل السكريبت <code>start-flux-schnell.bat</code> في الدليل الرئيسي للمشروع",
+      "step2": "في القائمة الرئيسية، اختر \"2. Deploy Worker and get URL, then start WebUI\"",
+      "step3": "اتبع تعليمات السكريبت لإكمال عملية النشر",
+      "step4": "انسخ عنوان URL الذي حصلت عليه هنا"
+    }
+  },
+  "imageGenerator": {
+    "title": "إنشاء صورة",
+    "resultTitle": "نتيجة التوليد",
+    "promptLabel": "وصف النص",
+    "promptPlaceholder": "مثال: 1 فتاة، لطيفة، تشرب الماء، كوب زجاجي، ضوء الصباح، أسلوب كرتوني، خلفية بسيطة. الرجاء استخدام اللغة الإنجليزية للحصول على أفضل النتائج، حيث قد لا يتعرف Flux على اللغات الأخرى بدقة.",
+    "stepsLabel": "الخطوات (1-8)",
+    "stepsHint": "المزيد من الخطوات تعطي جودة صورة أفضل، لكنها تتطلب وقتًا أطول للمعالجة.",
+    "generateButton": "إنشاء صورة",
+    "generatingButton": "جاري الإنشاء...",
+    "emptyPromptError": "الرجاء إدخال وصف نصي",
+    "generateError": "فشل إنشاء الصورة: {{message}}",
+    "invalidImageError": "بيانات الصورة المنشأة غير صالحة",
+    "noImagePlaceholder": "سيتم عرض الصور المنشأة هنا",
+    "tips": {
+      "title": "نصائح:",
+      "tip1": "الأوصاف التفصيلية تعطي نتائج أفضل",
+      "tip2": "جرّب عددًا مختلفًا من الخطوات للموازنة بين سرعة التوليد وجودة الصورة",
+      "tip3": "انقر على الصور في السجل لإعادة استخدام الوصف النصي",
+      "tip4": "يمكن تنزيل الصور المنشأة وحفظها محليًا"
+    }
+  },
+  "history": {
+    "title": "سجل التوليد",
+    "emptyHistory": "لا يوجد سجل توليد حتى الآن"
+  }
+} 

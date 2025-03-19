@@ -1,0 +1,67 @@
+{
+  "common": {
+    "appName": "Cloudflare-Flux Schnell WebUI",
+    "loading": "Загрузка...",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "continue": "Продолжить",
+    "reset": "Сбросить",
+    "generate": "Создать",
+    "download": "Скачать",
+    "clear": "Очистить",
+    "reuse": "Повторно использовать",
+    "error": "Ошибка",
+    "success": "Успех",
+    "warning": "Предупреждение",
+    "resetConfig": "Сбросить настройки"
+  },
+  "header": {
+    "title": "Cloudflare-Flux Schnell WebUI",
+    "subtitle": "AI приложение для генерации изображений"
+  },
+  "footer": {
+    "copyright": "Cloudflare-Flux Schnell WebUI © {{year}}",
+    "poweredBy": "Работает на Cloudflare Workers AI"
+  },
+  "apiConfig": {
+    "title": "Установите URL Worker",
+    "description": "Пожалуйста, введите URL вашего Cloudflare Worker для продолжения использования приложения.",
+    "urlLabel": "URL Cloudflare Worker",
+    "urlPlaceholder": "например: https://cf-flux-schnell.your-subdomain.workers.dev",
+    "saveButton": "Сохранить и продолжить",
+    "saveSuccess": "URL Worker успешно сохранен!",
+    "emptyUrlError": "Пожалуйста, введите URL Worker для продолжения",
+    "guideTitle": "Если у вас еще нет URL Worker, выполните следующие шаги:",
+    "guideSteps": {
+      "step1": "Запустите скрипт <code>start-flux-schnell.bat</code> в корневой директории проекта",
+      "step2": "В главном меню выберите \"2. Deploy Worker and get URL, then start WebUI\"",
+      "step3": "Следуйте инструкциям скрипта для завершения развертывания",
+      "step4": "Скопируйте полученный URL сюда"
+    }
+  },
+  "imageGenerator": {
+    "title": "Создать изображение",
+    "resultTitle": "Результат генерации",
+    "promptLabel": "Промпт",
+    "promptPlaceholder": "например: 1 девушка, милая, пьющая воду, стеклянная чашка, утренний свет, мультяшный стиль, простой фон. Используйте английский язык для лучших результатов, так как Flux может некорректно распознавать другие языки.",
+    "stepsLabel": "Шаги (1-8)",
+    "stepsHint": "Большее количество шагов дает лучшее качество изображения, но требует больше времени обработки.",
+    "generateButton": "Создать изображение",
+    "generatingButton": "Создание...",
+    "emptyPromptError": "Пожалуйста, введите промпт",
+    "generateError": "Не удалось создать изображение: {{message}}",
+    "invalidImageError": "Сгенерированные данные изображения недействительны",
+    "noImagePlaceholder": "Сгенерированные изображения будут отображаться здесь",
+    "tips": {
+      "title": "Советы:",
+      "tip1": "Детальные промпты дадут лучшие результаты",
+      "tip2": "Попробуйте разное количество шагов для баланса скорости генерации и качества изображения",
+      "tip3": "Нажмите на изображения в истории, чтобы повторно использовать промпт",
+      "tip4": "Сгенерированные изображения можно скачать и сохранить локально"
+    }
+  },
+  "history": {
+    "title": "История генерации",
+    "emptyHistory": "История генерации пуста"
+  }
+} 
